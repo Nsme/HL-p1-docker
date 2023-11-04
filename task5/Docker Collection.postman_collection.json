@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "fad749cc-2b04-40ee-becd-ff78e4cf582b",
+		"name": "Docker Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18811123"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/json-server/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/json-server/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"json-server",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/json-server/posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/json-server/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"json-server",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/json-server/comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/json-server/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"json-server",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/json-server/profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/json-server/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"json-server",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
